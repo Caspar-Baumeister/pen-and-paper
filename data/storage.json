@@ -1,0 +1,215 @@
+{
+  "worldDescription": "underground world. All charakters and monsters are underground creatures",
+  "areas": [
+    {
+      "id": "cave",
+      "name": "Höhle",
+      "icon": "🕳️"
+    },
+    {
+      "id": "forest",
+      "name": "Wald",
+      "icon": "🌲"
+    },
+    {
+      "id": "mountains",
+      "name": "Gebirge",
+      "icon": "⛰️"
+    },
+    {
+      "id": "lake",
+      "name": "See",
+      "icon": "🌊"
+    },
+    {
+      "id": "city",
+      "name": "Stadt",
+      "icon": "🏰"
+    }
+  ],
+  "monsters": [
+    {
+      "id": "1764886734903",
+      "name": "Rumblefang",
+      "summary": "A massive, rock-pelted wolf whose echoing howls resonate through the deep caves.",
+      "area": "cave",
+      "difficulty": "medium",
+      "appearance": "The Rumblefang is a formidable sight, resembling a wolf sculpted from living stone. Its body is heavily muscled and low-slung, built for navigating the uneven terrain of subterranean caverns. Instead of soft fur, its coat consists of coarse, mineral-encrusted bristles that clump together like rough-hewn rock, ranging in color from deep slate grey to mottled earth brown, often with glints of quartz or mica embedded within. Patches of thicker, chitinous plating reinforce its shoulders, spine, and the crown of its skull, providing natural armor against falling debris or struggling prey. Its paws are broad and padded, with retractable, obsidian-hard claws that allow it to scale sheer rock faces with surprising agility.\n\nIts head is broad with powerful jaws housing teeth like sharpened stalactites, often stained with mineral deposits. Two pairs of small, pale, glowing eyes — one set on the front, another slightly to the sides — give it exceptional low-light vision, piercing the gloom with an eerie, phosphorescent gleam. A Rumblefang moves with an almost unsettling silence, its heavy body flowing through the darkness, only occasionally betrayed by the faint scrape of its claws on stone or a deep, guttural rumble in its chest. Its distinctive smell is a mix of damp earth, raw mineral, and the sharp tang of a predator, growing stronger when agitated. When it howls, the sound isn't just air; it feels like the very earth groans, resonating through the bones of any creature unfortunate enough to be nearby.",
+      "hp": 45,
+      "ac": 14,
+      "speed": "40 ft., climb 20 ft.",
+      "attacks": [
+        {
+          "name": "Crushing Bite",
+          "toHit": "+5",
+          "damage": "1d8+4 piercing",
+          "effect": "If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Darkvision",
+          "description": "The Rumblefang can see in dim light within 120 feet of it as if it were bright light, and in darkness as if it were dim light. It can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Keen Tremorsense",
+          "description": "The Rumblefang can detect and pinpoint the origin of vibrations within 60 feet, provided it is in contact with the ground."
+        },
+        {
+          "name": "Stone Camouflage",
+          "description": "The Rumblefang has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+        },
+        {
+          "name": "Rumbling Howl (Recharge 5-6)",
+          "description": "The Rumblefang lets out a guttural howl that reverberates through the cave. Each creature within 30 feet of the Rumblefang that can hear the howl must succeed on a DC 13 Wisdom saving throw or be frightened until the end of its next turn."
+        }
+      ],
+      "tags": [
+        "Beast",
+        "Subterranean",
+        "Predator"
+      ]
+    }
+  ],
+  "characters": [],
+  "npcs": [
+    {
+      "id": "1764889188414",
+      "name": "Nara Moosherz",
+      "area": "forest",
+      "role": "kräuterfrau",
+      "summary": "Nara ist eine uralte Kräuterfrau, die tief in den Pilz- und Wurzelwäldern der Unterwelt lebt und über ein unermessliches Wissen über die hiesige Flora und Fauna verfügt, das sie lieber für sich behält.",
+      "appearance": "Nara ist eine kleine, hagere Gestalt mit einer von den Jahren gekrümmten Haltung. Ihre Haut hat einen erdigen, moosgrünen Farbton und ist von feinen Rissen durchzogen, die wie die Rinde eines alten Baumes wirken. Ihre Augen sind tiefschwarz und funkeln mit einer unnervösen Intelligenz, während ihr Haar aus feinen, silbrigen Pilzfäden besteht. Sie trägt einfache Gewänder, die aus gewebten Höhlenpilzen und Lianen gefertigt sind und oft mit biolumineszenten Moosflechten verziert sind, die einen schwachen, bläulichen Schimmer abgeben.",
+      "personality": "Sie ist zurückhaltend und spricht nur in kurzen, oft rätselhaften Sätzen. Nara beobachtet Fremde lange und genau, bevor sie ihnen Vertrauen schenkt, ist aber im Kern gütig und hilfsbereit, solange man ihre Grenzen respektiert. Sie hat eine tiefe Ehrfurcht vor dem Gleichgewicht des unterirdischen Ökosystems und wird ungeduldig, wenn es gestört wird.",
+      "motivations": "Nara ist bestrebt, ihr gesammeltes Wissen über die Heilkräfte und Gefahren der Unterweltpflanzen zu bewahren und die empfindliche Balance ihrer Umgebung zu schützen. Sie fürchtet die Zerstörung durch Unwissenheit und die Enthüllung alter Geheimnisse, die besser verborgen bleiben sollten. Ihr größtes Ziel ist es, das Fortbestehen der einzigartigen Lebensformen ihres Waldreiches zu sichern.",
+      "hooks": [
+        "Nara benötigt eine seltene Pilzart, die nur in den tiefsten, von gefährlichen Sporen verseuchten Kavernen wächst, um ein mächtiges Heilmittel herzustellen, und bietet im Gegenzug tiefgründiges Wissen über einen verlorenen unterirdischen Pfad an.",
+        "Sie hat kryptische Hinweise auf eine alte, vergessene Siedlung der Tiefenelfen oder Grottenzwerge, die in der Nähe ihrer Höhle liegt, aber die genauen Koordinaten verrät sie nur, wenn die Helden ihr einen Gefallen tun.",
+        "Ein seltsames Krankheitsbild breitet sich unter den unterirdischen Kreaturen oder einer benachbarten Siedlung aus, und nur Naras einzigartiges Wissen kann die Ursache finden und ein Gegenmittel brauen.",
+        "Nara wird von einer Gruppe von Grolak-Räubern bedroht, die ihre Heilkräuter stehlen oder sie zwingen wollen, ihnen ein Gift für ihre Feinde zu mischen."
+      ],
+      "dangerLevel": "harmlos",
+      "combatNotes": "Nara ist absolut harmlos und würde niemals kämpfen. Bei Gefahr versucht sie, sich zu verstecken, zu fliehen oder nutzt ihr Wissen über die Umgebung, um Verfolger mit harmlosen, aber verwirrenden Sporen oder kleinen, nicht-tödlichen Fallen abzulenken.",
+      "chatState": {
+        "memorySummary": "",
+        "recentMessages": [
+          {
+            "role": "user",
+            "content": "Sage mir Nara, was für magische pflanzen gibt es hier?",
+            "timestamp": 1764889728381
+          },
+          {
+            "role": "npc",
+            "content": "Magische Pflanzen...? Sie sind hier. Aber nicht alle Kräfte sollen leichtfertig geweckt werden.",
+            "timestamp": 1764889728382
+          },
+          {
+            "role": "user",
+            "content": "If you don't tell me, I'll kill you",
+            "timestamp": 1764922833698
+          },
+          {
+            "role": "npc",
+            "content": "Ein Leben nehmen... das stört mehr als du denkst. Der Wald vergisst nichts.",
+            "timestamp": 1764922833699
+          }
+        ]
+      },
+      "voice": "female_epic"
+    }
+  ],
+  "tables": [
+    {
+      "id": "1764887203589",
+      "name": "mushroom forest forging",
+      "area": "forest",
+      "description": "Searching for anything usefull in the mushroom forrest like mushrooms, strings (from the large wood trees) or mushroom wood, but also dead or alive animals or whatever else can be found",
+      "rows": [
+        {
+          "id": "1764887163184-0",
+          "start": 1,
+          "end": 2,
+          "title": "Collapse & Swarm",
+          "description": "The ground unexpectedly gives way, dropping you into a shallow pit. You disturb a hidden nest of aggressive, chitinous fungoids that immediately swarm, forcing an immediate combat encounter or a hasty retreat."
+        },
+        {
+          "id": "1764887163184-1",
+          "start": 3,
+          "end": 4,
+          "title": "Noxious Spore Patch",
+          "description": "You stumble into a patch of dormant, poisonous fungi. They release a cloud of irritating spores, causing temporary coughing, burning eyes, and a minor debuff to perception or constitution for a short duration."
+        },
+        {
+          "id": "1764887163184-2",
+          "start": 5,
+          "end": 6,
+          "title": "Rotten Remains",
+          "description": "You find a large, fallen mushroom stalk and some fibrous strings, but they are completely rotted and waterlogged. There is nothing salvageable, and the decomposition leaves a foul odor."
+        },
+        {
+          "id": "1764887163184-3",
+          "start": 7,
+          "end": 8,
+          "title": "Common Forage",
+          "description": "You find a small cluster of common, edible mushrooms like 'Cave Caps' or 'Blind Truffles'. They provide basic sustenance for one person for a day, but offer no other unique benefits or materials."
+        },
+        {
+          "id": "1764887163184-4",
+          "start": 9,
+          "end": 10,
+          "title": "Animal Passage",
+          "description": "You discover fresh tracks and a recently abandoned burrow of a medium-sized underground creature, such as a rock badger or a glow-worm. The creature is not present, but its passage is recent."
+        },
+        {
+          "id": "1764887163184-5",
+          "start": 11,
+          "end": 12,
+          "title": "Sturdy Fungal Strings",
+          "description": "nichts"
+        },
+        {
+          "id": "1764887163184-6",
+          "start": 13,
+          "end": 14,
+          "title": "Solid Mushroom Wood",
+          "description": "auch nichts"
+        },
+        {
+          "id": "1764887163184-7",
+          "start": 15,
+          "end": 16,
+          "title": "Medicinal Glowshrooms",
+          "description": "A vibrant patch of rare, bioluminescent 'Medicinal Glowshrooms' is found. They emit a soft light, and if properly prepared, can heal minor wounds or cure common ailments."
+        },
+        {
+          "id": "1764887163184-8",
+          "start": 17,
+          "end": 18,
+          "title": "Prime Mushroom Harvest",
+          "description": "You discover an untouched, nutrient-rich area with an abundance of high-quality resources. This includes several varieties of potent mushrooms (edible, medicinal, or with minor magical properties) and a significant amount of superior mushroom wood and strong fibrous strings."
+        },
+        {
+          "id": "1764887163184-9",
+          "start": 19,
+          "end": 20,
+          "title": "Ancient Relic / Unique Creature",
+          "description": "You stumble upon either a perfectly preserved petrified 'Whisperwood' fungal stump, offering exceptionally durable and light materials, or the dormant lair of a rare, docile 'Deep Earth Grub', whose secretions are valuable and highly sought after for crafting."
+        }
+      ]
+    }
+  ],
+  "monsterTypes": [
+    "Beast",
+    "Undead",
+    "Humanoid",
+    "Fey",
+    "Elemental",
+    "Dragon",
+    "Fiend",
+    "Construct",
+    "Aberration",
+    "Celestial",
+    "Plant",
+    "Monstrosity"
+  ]
+}
